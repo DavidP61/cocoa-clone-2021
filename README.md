@@ -1,3 +1,3 @@
 # Cocoa Clone 2020 Update
 
-first coding
+HTML & CSS are so much fun!
