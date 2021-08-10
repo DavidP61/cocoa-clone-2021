@@ -1,0 +1,53 @@
+body {
+  margin: 20px;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+div {
+  width: 600px;
+  height: 1000px;
+}
+.color {
+  margin: 20px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: white;
+  width: 600px;
+  height: 1000px;
+}
+div:nth-child(2) {
+  background-color: tomato;
+}
+div:nth-child(3) {
+  background-color: teal;
+}
+div:nth-child(4) {
+  background-color: burlywood;
+}
+div:nth-child(5) {
+  background-color: thistle;
+}
+
+.whitebox {
+  margin: 15px;
+  width: 190px;
+  height: 120px;
+  position: relative;
+  background-color: white;
+  top: 5px;
+  right: 20px;
+  padding: 10px;
+}
+p {
+  font-size: 25px;
+  font-weight: 1000;
+}
+p + p {
+  font-size: 19px;
+  font-weight: 1000;
+}
